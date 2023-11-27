@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/gif">
+    <title>Home</title>
+</head>
+<body>
+   <div class="banner" id="header"></div>
+   <header class="header" id="navbar" style="z-index: 1005;">
+      <nav class="nav container">
+         <div class="nav__data">
+            <a href="" class="nav__logo">
+               <img src="logokanisius.png" alt="" style="width: 15vw; height: auto;">
+               <i class=""></i>
+            </a>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+         </div>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="index.html" class="nav__link">Home</a></li>
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Informatika <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="Informatika/HTML/index.html" class="dropdown__link">
+                           <i class="ri-html5-fill"></i> HTML
+                        </a>
+                     </li>
+                     <li>
+                        <a href="Informatika/CSS/index.html" class="dropdown__link">
+                           <i class="ri-css3-fill"></i> CSS
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+                  <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Sejarah <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="Sejarah/Kolonialisme/index.html" class="dropdown__link">
+                           <i class="ri-flag-fill"></i> Kolonialisme
+                        </a>
+                     </li>
+                     <li>
+                        <a href="Sejarah/Imperialisme/index.html" class="dropdown__link">
+                           <i class="ri-vip-diamond-fill"></i> Imperialisme
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+                     <!--=============== DROPDOWN 3 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Tentang Saya <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="bio/bio.html" class="dropdown__link">
+                           <i class="ri-user-line"></i> Biodata
+                        </a>                          
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+    <div class="home">
+      <div class="home-content">
+         <div class="row">
+            <div class="column side">
+               <img src="1264487327715866118.jpg" alt="" style="width: 100%; max-height: 35vw;">
+            </div>
+            <div class="column middle" style="width: 50%; max-width: 40vw;">
+               <h1>Selamat Datang!</h1>
+               <h3>Pembelajaran SMA Kolese Kanisius</h3>
+               <p>Ini adalah materi-materi pembelajaran SMA Kolese Kanisius</p>
+               <div class="home-sci">
+                  <a href="https://www.facebook.com/kolesekanisiusjakarta/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                  <a href="https://www.instagram.com/kolesekanisius/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="https://id.linkedin.com/school/kolese-kanisius-canisius-college/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+         </div> 
+      </div>
+   </div>
+    <footer class="footer">
+      <div class="waves">
+         <div class="wave" id="wave1"></div>
+         <div class="wave" id="wave2"></div>
+         <div class="wave" id="wave3"></div>
+         <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+         <li><a href="https://www.facebook.com/kolesekanisiusjakarta/" target="_blank"><ion-icon
+                  name="logo-facebook"></ion-icon></a></li>
+         <li><a href="https://www.instagram.com/kolesekanisius/" target="_blank"><ion-icon
+                  name="logo-instagram"></ion-icon></a></li>
+         <li><a href="https://id.linkedin.com/school/kolese-kanisius-canisius-college/" target="_blank"><ion-icon
+                  name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+      <p style="margin-bottom: 0;">Moshes Yosepa Manihuruk IT2 27 | All Rights Reserved</p>
+      <p>SMA Kolese Kanisius</p>
+   </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
